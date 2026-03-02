@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int x=2;
+    int y=4;
+    while(x!=y){
+        if(x>y){
+            x=x-y;
+        }
+        else{
+            y=y-x;
+        }
+     }
+     cout<<"GCD is:"<<x<<endl; 
+ }
+    
