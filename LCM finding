@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int x=2;
+    int y=4;
+    int i;
+    int gcd=1;
+   // cout<<"enter  two numbers"<<endl;
+    //cin>>x>>y;
+    int minimum =min (x,y);
+    for(i=1;i<= minimum;i++){
+        if(x%i==0 && y%i==0){
+            gcd=i;   }
+        
+    }
+    cout<<"GCD:"<<gcd<<endl;
+    cout<<"LCM is:"<<x*y/gcd<<endl;
+    
+
+}
